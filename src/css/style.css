@@ -5,5 +5,7 @@
 }
 
 .promo {
+	height: 800px;
+	background: url("../img/bg/background_header.png") center center/cover no-repeat;
 
 }
