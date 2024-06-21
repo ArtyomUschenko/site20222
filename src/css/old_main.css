@@ -1,0 +1,14 @@
+h2 {
+	color: red;
+	text-align: center;
+	font-size: 12px;
+}
+.italic {
+	font-style: italic;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+p {
+	font-size: 10px;
+}
