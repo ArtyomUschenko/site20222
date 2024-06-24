@@ -156,13 +156,16 @@ h2.title {
 
 .waiting .waiting_wrapper {
 	margin-top: 45px;
+	display: flex;
+	justify-content: space-between;
+
 }
 .waiting .waiting_wrapper .waiting_item {
-	display: inline-block;
-	vertical-align: top;
+	/*display: inline-block;*/
+	/*vertical-align: top;*/
 	width: 339px;
 	text-align: center;
-	margin: 0 15px;
+	/*margin: 0 15px;*/
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {
@@ -177,3 +180,22 @@ h2.title {
 	color: #4a4a4a;
 
 }
+
+/*.my-flex-container {*/
+/*	display: flex;*/
+/*	justify-content: space-around;*/
+/*	align-items: center;*/
+/*	!*flex-direction: column;*!*/
+/*	flex-wrap: wrap;*/
+/*	height: 450px;*/
+/*}*/
+
+/*.my-flex-block {*/
+/*	text-align: center;*/
+/*	margin: 0  50px;*/
+/*	color: white;*/
+/*	background-color: red;*/
+/*	height: 150px;*/
+/*	width: 150px;*/
+/*	border: 2px  solid black;*/
+/*}*/
