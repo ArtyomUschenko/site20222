@@ -85,7 +85,7 @@ h2.title {
 }
 
 
-.promo .promo_btn {
+.promo .promo_btn, .bonus .bonus_btn{
 	display: block;
 	margin: 0 auto;
 	margin-top: 73px;
@@ -104,6 +104,9 @@ h2.title {
 	cursor: pointer;
 	outline: none;
 }
+
+
+
 
 .more {
 	margin-top: 73px;
@@ -128,7 +131,7 @@ h2.title {
 	padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header, .finish .finish_header{
+.waiting .waiting_header, .finish .finish_header, .webinar .webinar_header{
 	color: rgb(37, 37, 37);
 	font-family: "Roboto";
 	font-size: 30px;
@@ -287,3 +290,109 @@ h2.title {
 /*	!*align-items: center;*!*/
 /*	!*flex-direction: column;*!*/
 /*}*/
+
+/*
+.bonus {
+	background: #efefef;
+}
+.bonus .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 628px;
+	padding-top: 86px;
+	padding-bottom: 81px;
+
+}
+.bonus .bonus_text {
+	text-align: center;
+	max-height: 126.48px;
+	font-family: Roboto-Regular;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 43px;
+	color: #252525;
+}
+
+.bonus .bonus_btn{
+	margin-top: 0;
+}*/
+
+.bonus {
+	min-height: 628px;
+	background: #efefef;
+	padding: 86px 0 81px 0;
+}
+
+.bonus .bonus_img {
+	display: block;
+	margin: 0 auto;
+}
+
+.bonus .bonus_text {
+	text-align: center;
+	max-width: 1139px;
+	font-family: Roboto-Regular;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 43px;
+	color: #252525;
+	margin-top: 33px;
+}
+.bonus .bonus_btn {
+	margin-top: 42px;
+}
+
+.webinar {
+	min-height: 515px;
+	padding: 82px 0 67px 0;
+}
+
+.webinar .webinar_img {
+	display: block;
+	margin: 0 auto;
+}
+
+.webinar .webinar_date {
+	font-family: Roboto-Black;
+	font-weight: normal;
+	font-size: 36px;
+	text-align: center;
+	color: #299cbd;
+	margin-top: 18px;
+}
+
+.webinar .webinar_text {
+	font-family: Roboto-Regular;
+	font-weight: normal;
+	font-size: 23px;
+	text-align: center;
+	color: #4a4a4a;
+	margin-top: 18px;
+}
+
+.webinar .webinar_header {
+	margin-top: 41px;
+}
+
+
+
+
+
+
+footer {
+	height: 166px;
+	background: #1a1a1a;
+	font-family: Roboto-Light;
+	font-weight: normal;
+	/*text-decoration: underline;*/
+	font-size: 15px;
+	line-height: 21px;
+	text-align: center;
+	color: #888;
+	padding-top:  60px;
+}
+footer a:-webkit-any-link  {
+	color: #888;
+}
